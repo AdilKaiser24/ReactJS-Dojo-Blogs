@@ -1,11 +1,13 @@
 import Home from "./Home"
 import BlogDetails from "./BlogDetails"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import Navbar from "./Navbar"
 
 function App() {
 
   return (
     <Router>
+      <Navbar />
       <div className="content">
         <Switch>
         <Route exact path="/">
